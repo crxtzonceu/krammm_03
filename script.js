@@ -110,7 +110,7 @@ if (!floatingContainer) {
 let tapCount = 0; // Initialize tap count
 
 // Listen for taps anywhere on the page
-body.addEventListener("click", () => {
+body.addEventListener("pointerdown", () => {
     tapCount++; // Increase tap count
 
     if (tapCount === 1) {
