@@ -26,6 +26,7 @@ body {
   font-weight: bold;
   position: absolute;
   transition: opacity 0.5s ease;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Soft shadow */
 }
 
 
